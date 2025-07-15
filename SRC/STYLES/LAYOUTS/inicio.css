@@ -21,8 +21,8 @@ h1 {
 /* Primeiros 3 elementos (cards) vão ocupar a primeira linha */
 .card {
      background-image: 
-          url('/SRC/IMG/Rectangle\ 15.png'),
-          url('/SRC/IMG/3974104\ 1.png');
+          url('/src/assets/Rectangle\ 15.png'),
+          url('/src/assets/3974104\ 1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -46,8 +46,8 @@ h1 {
 }
 
 .card:hover {
-    background-image: url('/SRC/IMG/Rectangle\ 15\ \(1\).png'),
-    url('/SRC/IMG/3974104\ 1.png');
+    background-image: url('/src/assets/Rectangle\ 15\ \(1\).png'),
+        url('/src/assets/3974104\ 1.png');
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -70,7 +70,7 @@ h1 {
 }
 
 .box-1 {
-    background-image: url('/SRC/IMG/Group\ 22.png');
+    background-image: url('/src/assets/Group\ 22.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ h1 {
 }
 
 .box-1:hover {
-    background-image: url('/SRC/IMG/Group\ 22-1.png');
+    background-image: url('/src/assets/Group\ 22-1.png');
     transform: scale(1.05);
     cursor: pointer;
 }
